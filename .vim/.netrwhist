@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/luis/Workspace/Rails/3.2/cellrox-policy-04'
+let g:netrw_dirhist_2='/home/luis/Workspace/Rails/3.2/cellrox-policy-04/config'
+let g:netrw_dirhist_3='/home/luis/Workspace/Rails/3.2/cellrox-policy-04/config/environments'
+let g:netrw_dirhist_4='/home/luis/Workspace/Rails/3.2/cellrox-policy-04'
+let g:netrw_dirhist_5='/home/luis/Workspace/Rails/3.2/cellrox-policy-04/app'
+let g:netrw_dirhist_6='/home/luis/Workspace/Rails/3.2/cellrox-policy-04/app/models'

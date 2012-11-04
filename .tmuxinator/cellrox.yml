@@ -1,0 +1,25 @@
+# ~/.tmuxinator/mongoid_test.yml
+# you can make as many tabs as you wish...
+
+project_name: mongoid
+project_root: ~/Workspace/Rails/3.2/cellrox_policy
+#socket_name: foo # Not needed.  Remove to use default socket
+#rvm: ruby-1.9.3-p194@rails_project
+#pre: sudo /etc/rc.d/mysqld start
+tabs:
+  - editor:
+#      layout: main-vertical
+#      panes:
+#        - #vim
+#        - #empty, will just run plain bash
+#        - #top
+#        - #top
+  - shell: 
+  - server: rails s
+  - console: rails c
+  - database: mongo #rails db
+  - git: git status 
+  - spork: rvmsudo bundle exec spork
+#  - logs: tail -f logs/development.log
+#  - capistrano:
+#  - server: ssh me@myhost
